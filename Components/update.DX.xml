@@ -1,0 +1,10 @@
+<updates>
+<update version="0.5.0">
+<files>
+<file path="Components/LiveSplit.DX.dll" status="changed"/>
+</files>
+<changelog>
+<change>Initial release</change>
+</changelog>
+</update>
+</updates>
