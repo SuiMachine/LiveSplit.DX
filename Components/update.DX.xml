@@ -1,4 +1,12 @@
 <updates>
+<update version="0.5.1">
+<files>
+<file path="Components/LiveSplit.DX.dll" status="changed"/>
+</files>
+<changelog>
+<change>Decreased checking for loading to 32times/s (to prevent pausing if the framerate drops below 60fps) - this requires a better workaround.</change>
+</changelog>
+</update>
 <update version="0.5.0">
 <files>
 <file path="Components/LiveSplit.DX.dll" status="changed"/>

@@ -1,4 +1,4 @@
-﻿LiveSplit.DX v0.5.0
+﻿LiveSplit.DX v0.5.1
 =====================
 
 LiveSplit.DX is a [LiveSplit](http://livesplit.org/) component for Deus Ex.

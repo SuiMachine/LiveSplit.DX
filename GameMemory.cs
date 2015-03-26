@@ -143,7 +143,7 @@ namespace LiveSplit.DX
 
                         frameCounter++;
 
-                        Thread.Sleep(15);
+                        Thread.Sleep(30);
 
                         if (_cancelSource.IsCancellationRequested)
                         {
