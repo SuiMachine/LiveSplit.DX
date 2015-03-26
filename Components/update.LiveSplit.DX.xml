@@ -1,4 +1,12 @@
 <updates>
+<update version="0.5.2">
+<files>
+<file path="Components/LiveSplit.DX.dll" status="changed"/>
+</files>
+<changelog>
+<change>Make it 29 times (to make sure it works fine at 30fps).</change>
+</changelog>
+</update>
 <update version="0.5.1">
 <files>
 <file path="Components/LiveSplit.DX.dll" status="changed"/>
