@@ -33,6 +33,7 @@ namespace LiveSplit.DX
             this.IsLayoutComponent = isLayoutComponent;
 
            _timer = new TimerModel { CurrentState = state };
+           _timer.CurrentState.OnStart += timer_onStart;
 
             _gameMemory = new GameMemory(this.Settings);
             _gameMemory.OnLoadStarted += gameMemory_OnLoadStarted;
@@ -41,11 +42,17 @@ namespace LiveSplit.DX
             _gameMemory.StartMonitoring();
         }
 
+        private void timer_onStart(object sender, EventArgs e)
+        {
+            _timer.InitializeGameTime();
+        }
+
         public override void Dispose()
         {
             this.Disposed = true;
 
             _state.OnStart -= State_OnStart;
+            _timer.CurrentState.OnStart -= timer_onStart;
 
             if (_gameMemory != null)
             {

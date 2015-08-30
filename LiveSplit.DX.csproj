@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LiveSplit.Core">
-      <HintPath>C:\Files\Apps\Gaming\LiveSplit 1.4\LiveSplit.Core.dll</HintPath>
+      <HintPath>C:\Files\Apps\Gaming\LiveSplit\LiveSplit.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="UpdateManager">
-      <HintPath>C:\Files\Apps\Gaming\LiveSplit 1.4\UpdateManager.dll</HintPath>
+      <HintPath>C:\Files\Apps\Gaming\LiveSplit\UpdateManager.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -52,7 +52,6 @@
     <Compile Include="DXSettings.Designer.cs">
       <DependentUpon>DXSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeepPointer.cs" />
     <Compile Include="DXComponent.cs" />
     <Compile Include="DXFactory.cs" />
     <Compile Include="GameMemory.cs" />
@@ -62,7 +61,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SafeNativeMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
