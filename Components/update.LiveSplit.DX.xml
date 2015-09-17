@@ -7,6 +7,14 @@
 <change>LiveSplit 1.6 compatibility.</change>
 </changelog>
 </update>
+<update version="0.5.3">
+<files>
+<file path="Components/LiveSplit.DX.dll" status="changed"/>
+</files>
+<changelog>
+<change>LiveSplit 1.6 compatibility.</change>
+</changelog>
+</update>
 <update version="0.5.2">
 <files>
 <file path="Components/LiveSplit.DX.dll" status="changed"/>

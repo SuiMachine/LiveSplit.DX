@@ -27,7 +27,7 @@ namespace LiveSplit.DX
 
         public GameMemory(DXSettings componentSettings)
         {
-            _IsRenderTimer = new DeepPointer(0x0001B4AC, 0x34, 0x11c);
+            _IsRenderTimer = new DeepPointer("Extension.dll", 0x000A8C60, 0x34, 0xC, 0x8, 0x11c);
             resetSplitStates();
 
             _ignorePIDs = new List<int>();
