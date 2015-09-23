@@ -1,4 +1,12 @@
 <updates>
+<update version="0.5.5">
+<files>
+<file path="Components/LiveSplit.DX.dll" status="changed"/>
+</files>
+<changelog>
+<change>Changed the pointer again.</change>
+</changelog>
+</update>
 <update version="0.5.4">
 <files>
 <file path="Components/LiveSplit.DX.dll" status="changed"/>
