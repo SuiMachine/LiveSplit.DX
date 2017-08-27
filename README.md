@@ -1,7 +1,7 @@
-﻿LiveSplit.DX v0.5.1
+﻿LiveSplit.DX
 =====================
 
-LiveSplit.DX is a [LiveSplit](http://livesplit.org/) component for Deus Ex.
+__LiveSplit.DX is now obsolate__. Use [https://github.com/Dalet/LiveSplit.UnrealLoads](UnrealLoads) instead!
 
 Features
 --------
@@ -32,7 +32,6 @@ If you wish to show Real Time on your layout, download AlternateTimingMethod fro
 
 Credits
 -------
-  * [God](http://en.wikipedia.org/wiki/God_in_Christianity)
   * [SuicideMachine](http://twitch.tv/suicidemachine)
   * Plugin is based off [LiveSplit.Dishonored](https://github.com/fatalis/LiveSplit.Dishonored) by [Fatalis](http://twitch.tv/fatalis_).
 
