@@ -1,7 +1,7 @@
 ﻿LiveSplit.DX
 =====================
 
-__LiveSplit.DX is now obsolate__. Use [https://github.com/Dalet/LiveSplit.UnrealLoads](UnrealLoads) instead!
+__LiveSplit.DX is now obsolate__. Use [UnrealLoads](https://github.com/Dalet/LiveSplit.UnrealLoads) instead!
 
 Features
 --------
